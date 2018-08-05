@@ -1,6 +1,9 @@
 # SAP-OSS-Check
 Nagios plugin for checking SAP OSS
 
+![Alt ActiveSync is aither 0 or 1 (activ or not activa)](images/SAPOSSCheck.png)
+
+
 Command line: check_saposs.sh 
 
 ## Description: 
@@ -27,6 +30,9 @@ define command {
   command_line /usr/lib/nagios/plugins/check_saposs.sh $ARG1$ 
 
 } 
+
+If you want a availability graph then you need to turn on performance data for this check.
+ 
  
 #### Note:
 Please set SAPINFO_HOME to the directory where you installed sapinfo 
