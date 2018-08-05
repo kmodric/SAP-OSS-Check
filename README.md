@@ -2,7 +2,7 @@
 Nagios plugin for checking SAP OSS
 
 
-## Command line: check_saposs.sh 
+### Command line: check_saposs.sh 
 
 ## Description: 
 This plugin will attempt to connect to SAPOSS server on SAP via saprouter 
@@ -29,7 +29,7 @@ define command {
 
 } 
  
-
-##Please set SAPINFO_HOME to the directory where you installed sapinfo 
+### Note:
+Please set SAPINFO_HOME to the directory where you installed sapinfo 
 SAPINFO_HOME="/opt/rfcsdk/bin" 
  
