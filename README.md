@@ -31,7 +31,7 @@ define command {
 
 } 
 
-If you want a availability graph then you need to turn on performance data for this check.
+If you want a availability graph then you need to turn on performance data for this check. (process_perf_data       1)
  
  
 #### Note:
